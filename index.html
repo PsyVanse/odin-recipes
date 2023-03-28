@@ -1,14 +1,46 @@
 <!DOCTYPE html>
 <html>
     <h1>Odin Recipes</h1>
-    <img src="sources/Ube.jpeg" style="width:400px;px;height:250px;">
+    <!-- Tab Links -->
+    <div class="tab">
+        <button class="tablinks" onclick="openHome(event, 'Home')">Home</button>
+        <button class="dropbtn" onclick="openMenu(event, 'Menu')">Menu</button>
+        <div class="dropdown-content">
+            <a href="Beef-Caldereta-with-Rice">Beef Caldereta with Rice</a>
+            <a href="Palabok">Palabok</a>
+            <a href="Ube-Taho">Ube</a>
+        </div>
+        <button class="tablinks" onclick="openAbout(event, 'About')">About</button>
+        <button class="tablinks" onclick="openContact(event, 'Contact')">Contact</button>
+      </div>
+    <!-- Tab content -->
+    <div id="Home" class="tabcontent">
+        <h3>Home</h3>
+        <p>Home Landing Page</p>
+    </div>
+  
+    <div id="Menu" class="tabcontent">
+        <h3>Menu</h3>
+        <p>Food Menu</p>
+    </div>
+  
+    <div id="About" class="tabcontent">
+        <h3>About</h3>
+        <p>About Us Page</p>
+    </div>
+
+    <div id="Contact" class="tabcontent">
+        <h3>Contact</h3>
+        <p>Contact Info</p>
+    </div>
+
     <body>
-        <a href="recipes/Beef-Caldereta-with-Rice.html">Caldereta</a>
-        <img src="sources/Beef.jpeg" style="width:400px;px;height:250px;">
+        <a href="recipes/Beef-Caldereta-with-Rice.html">Beef Caldereta with Rice</a>
+        <img src="sources/Beef.jpeg" style="width:400px;height:250px;">
         <a href="recipes/Palabok.html">Palabok</a>
         <img src="sources/Palabok.jpeg" style="width:400px;height:250px;">
-        <a href="recipes/Ube-Taho.html">Ube</a>
-        <img src="sources/Ube.jpeg" style="width:400px;height:250px;px;">
+        <a href="recipes/Ube-Taho.html">Ube Taho</a>
+        <img src="sources/Ube.jpeg" style="width:400px;height:250px;">
         <div>
             <ul>
                 <li><a href='./recipes/Beef-Caldereta-with-Rice.html'>Beef Caldereta with Rice</a></li>
